@@ -10,7 +10,7 @@ export function Hero() {
 
   return (
     <>
-      <section className="relative overflow-hidden bg-gradient-to-br from-background via-primary/[0.02] to-background py-10 sm:py-14">
+      <section className="relative overflow-hidden bg-linear-to-br from-background via-primary/2 to-background py-10 sm:py-14">
         {/* Subtle background decoration */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute right-0 top-0 h-[500px] w-[500px] rounded-full bg-primary/5 blur-3xl"></div>
@@ -46,7 +46,7 @@ export function Hero() {
                   className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/20 group h-12 px-6"
                   onClick={() => setModalOpen(true)}
                 >
-                  Get Early Access Free
+                  Get 14-Day Free Trial
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition" />
                 </Button>
                 <Button 
@@ -92,7 +92,7 @@ export function Hero() {
 
             <div className="hidden lg:flex items-center justify-center">
               <div className="relative w-full max-w-lg animate-in fade-in zoom-in-95 duration-1000 delay-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl"></div>
                 <div className="relative bg-card border border-border rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-shadow duration-300">
                   <div className="space-y-4">
                     {/* Mock Dashboard */}
@@ -116,7 +116,7 @@ export function Hero() {
                       {[45, 60, 38, 75, 55, 85, 70, 90].map((height, i) => (
                         <div 
                           key={i} 
-                          className="flex-1 bg-gradient-to-t from-primary/80 to-primary/40 rounded-t"
+                          className="flex-1 bg-linear-to-t from-primary/80 to-primary/40 rounded-t"
                           style={{ height: `${height}%` }}
                         ></div>
                       ))}

@@ -1,8 +1,10 @@
 import { Header } from '@/components/header'
 import { Hero } from '@/components/hero'
 import { ProblemStatement } from '@/components/problem-statement'
+import { About } from '@/components/about'
 import { Features } from '@/components/features'
-import { SocialProof } from '@/components/social-proof'
+import { Pricing } from '@/components/pricing'
+import { FounderStory } from '@/components/founder-story'
 import { CTA } from '@/components/cta'
 import { Footer } from '@/components/footer'
 
@@ -12,8 +14,10 @@ export default function Home() {
       <Header />
       <Hero />
       <ProblemStatement />
+      <About />
       <Features />
-      <SocialProof />
+      <Pricing />
+      <FounderStory />
       <CTA />
       <Footer />
     </main>

@@ -9,7 +9,7 @@ export function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+      <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center shadow-sm">
@@ -38,7 +38,7 @@ export function Header() {
               className="bg-primary hover:bg-primary/90 shadow-sm text-base"
               onClick={() => setModalOpen(true)}
             >
-              Get Started Free
+              Get 14-Day Free Trial
             </Button>
           </div>
         </div>

@@ -39,7 +39,7 @@ export function ProblemStatement() {
           {problems.map((item, idx) => (
             <div 
               key={idx} 
-              className="group bg-card border border-border rounded-xl p-5 hover:border-primary/40 hover:shadow-lg hover:scale-[1.02] transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 duration-700"
+              className="group bg-card border border-border rounded-xl p-5 hover:border-primary/40 hover:shadow-lg hover:scale-[1.02] transition-all animate-in fade-in slide-in-from-bottom-4 duration-700"
               style={{ animationDelay: `${idx * 150}ms` }}
             >
               <div className="text-3xl mb-3">{item.icon}</div>

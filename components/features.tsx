@@ -4,27 +4,27 @@ export function Features() {
   const features = [
     {
       icon: BarChart3,
-      title: "Instant Multi-Platform Integration",
-      description: "Connect Meta Ads, Google Ads, and LinkedIn in under 60 seconds. Zero coding required."
+      title: "Weekly AI Analyst Report",
+      description: "Every Monday at 7 AM, get a comprehensive AI-generated analysis of your campaigns with actionable insights and recommendations."
     },
     {
       icon: Zap,
-      title: "AI-Powered Performance Insights",
-      description: "Machine learning identifies optimization opportunities and predicts campaign performance trends."
+      title: "60-Second Report Generation",
+      description: "Beautiful, white-labeled reports generated automatically in under a minute. Export to PDF or share via link."
     },
     {
       icon: FileText,
-      title: "Automated Report Generation",
-      description: "Beautiful, white-labeled reports generated automatically. Export to PDF or share via link."
+      title: "Multi-Platform Integration",
+      description: "Connect Meta Ads, Google Ads, and LinkedIn in under 60 seconds. Zero coding required."
     },
     {
       icon: AlertCircle,
-      title: "Real-Time Budget Alerts",
-      description: "Get instant notifications when campaigns underperform or budgets exceed thresholds."
+      title: "Real-Time WhatsApp Alerts",
+      description: "Get instant notifications on WhatsApp when campaigns underperform or budgets exceed thresholds."
     },
     {
       icon: Lock,
-      title: "Client Portal Access",
+      title: "White-Label Client Portal",
       description: "Give clients 24/7 access to their data with custom branding. Build trust automatically."
     },
     {
@@ -55,7 +55,7 @@ export function Features() {
             return (
               <div 
                 key={idx} 
-                className="group bg-card border border-border rounded-xl p-5 hover:border-primary/40 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 duration-700"
+                className="group bg-card border border-border rounded-xl p-5 hover:border-primary/40 hover:shadow-lg hover:-translate-y-1 transition-all animate-in fade-in slide-in-from-bottom-4 duration-700"
                 style={{ animationDelay: `${idx * 100}ms` }}
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/15 transition-colors">

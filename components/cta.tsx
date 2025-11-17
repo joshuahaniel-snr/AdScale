@@ -10,7 +10,7 @@ export function CTA() {
 
   return (
     <>
-      <section className="py-12 relative overflow-hidden bg-gradient-to-br from-primary/5 via-background to-secondary/5">
+      <section className="py-12 relative overflow-hidden bg-linear-to-br from-primary/5 via-background to-secondary/5">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
@@ -33,7 +33,7 @@ export function CTA() {
               className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/20 group h-12 px-6"
               onClick={() => setModalOpen(true)}
             >
-              Reserve Your Spot Free
+              Get 14-Day Free Trial
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition" />
             </Button>
             <Button 
