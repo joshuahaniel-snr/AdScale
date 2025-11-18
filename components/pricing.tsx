@@ -34,7 +34,7 @@ export function Pricing() {
       features: [
         'Up to 5 ad accounts',
         'Unlimited reports',
-        'Weekly AI Analyst Report (Mon 7AM)',
+        'AI-generated reports on-demand',
         'WhatsApp alerts',
         'White-label reports',
         'Priority email support',
@@ -54,7 +54,7 @@ export function Pricing() {
       features: [
         'Unlimited ad accounts',
         'Unlimited reports',
-        'Weekly AI Analyst Report (Mon 7AM)',
+        'AI-generated reports on-demand',
         'WhatsApp + Slack alerts',
         'White-label reports & portal',
         'Dedicated account manager',

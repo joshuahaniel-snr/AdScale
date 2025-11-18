@@ -19,9 +19,10 @@ export function Header() {
           </a>
           
           <nav className="hidden md:flex items-center gap-7">
+            <a href="#about" className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors">About</a>
             <a href="#features" className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors">Features</a>
-            <a href="#testimonials" className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors">Testimonials</a>
-            <a href="#" className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+            <a href="#pricing" className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+            <a href="#founder" className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors">Founder</a>
           </nav>
 
           <div className="flex items-center gap-3">

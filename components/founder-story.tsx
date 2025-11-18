@@ -38,19 +38,19 @@ export function FounderStory() {
 
             <div className="space-y-4 text-base text-muted-foreground mb-6">
               <p>
-                After running a performance marketing agency for 3 years, I spent countless nights manually pulling data from Meta Ads, Google Ads, and client dashboards. Every Monday morning started with the same exhausting routine—consolidating reports, calculating ROI, and explaining metrics to clients.
+                I've worked closely with performance marketing agencies and seen the same pain point repeatedly—agencies spending countless hours manually pulling data from Meta Ads, Google Ads, and client dashboards. Every week starts with the same exhausting routine: consolidating reports, calculating ROI, and explaining metrics to clients.
               </p>
 
               <p>
-                I watched my team burn out doing repetitive work that AI could handle. Clients kept asking the same questions: "What's our ROAS?", "Which ads are working?", "Should we increase budget?"
+                Agency owners kept telling me their teams were burning out doing repetitive work that AI could handle. Clients kept asking the same questions: "What's our ROAS?", "Which ads are working?", "Should we increase budget?"
               </p>
 
               <p className="font-semibold text-foreground">
-                That's when I built AdScale—not as a tech experiment, but as a solution I desperately needed.
+                That's when I built AdScale—not as a tech experiment, but as a solution they desperately needed.
               </p>
 
               <p>
-                Today, AdScale automates what took us 6 hours into a 2-minute AI-generated report. It's built specifically for Indian agencies handling multiple client accounts, with WhatsApp alerts (because that's how we communicate), INR currency support, and pricing that doesn't break the bank.
+                Today, AdScale automates what takes 6 hours into a 2-minute AI-generated report. It's built specifically for Indian agencies handling multiple client accounts, with WhatsApp alerts (because that's how we communicate), INR currency support, and pricing that doesn't break the bank.
               </p>
 
               <p>

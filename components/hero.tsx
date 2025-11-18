@@ -49,14 +49,17 @@ export function Hero() {
                   Get 14-Day Free Trial
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition" />
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="border-2 h-12 px-6"
-                  onClick={() => setModalOpen(true)}
-                >
-                  Book a Demo
-                </Button>
+              </div>
+
+              {/* Social Proof Badge */}
+              <div className="flex items-center gap-2 text-sm text-muted-foreground animate-in fade-in duration-700 delay-600">
+                <div className="flex -space-x-2">
+                  <div className="w-8 h-8 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-xs font-bold text-primary">A</div>
+                  <div className="w-8 h-8 rounded-full bg-secondary/20 border-2 border-background flex items-center justify-center text-xs font-bold text-secondary">M</div>
+                  <div className="w-8 h-8 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-xs font-bold text-primary">D</div>
+                </div>
+                <span className="font-semibold text-foreground">Join 50+ agencies</span>
+                <span>already automating their reporting</span>
               </div>
 
               <div className="grid grid-cols-3 gap-4 pt-3 border-t border-border animate-in fade-in slide-in-from-bottom-7 duration-700 delay-700">

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { sendWelcomeEmail } from '@/lib/email'
 
 export async function POST(request: NextRequest) {
   try {
@@ -89,6 +90,17 @@ export async function POST(request: NextRequest) {
         { error: 'Failed to create reservation' },
         { status: 500 }
       )
+    }
+
+    // Send welcome email (non-blocking - don't fail if email fails)
+    try {
+      await sendWelcomeEmail({
+        fullName,
+        email: email.toLowerCase().trim()
+      })
+    } catch (emailError) {
+      console.error('Failed to send welcome email:', emailError)
+      // Continue anyway - reservation was successful
     }
 
     return NextResponse.json(

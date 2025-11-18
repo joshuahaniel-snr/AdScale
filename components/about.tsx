@@ -28,7 +28,7 @@ export function About() {
               <h4 className="font-bold text-foreground mb-2">✅ What We Solve</h4>
               <ul className="text-sm text-muted-foreground space-y-2">
                 <li>• 60-second report generation</li>
-                <li>• Weekly AI analyst summaries</li>
+                <li>• AI analyst summaries on-demand</li>
                 <li>• Real-time WhatsApp alerts</li>
                 <li>• White-label client portals</li>
                 <li>• Affordable Indian pricing</li>

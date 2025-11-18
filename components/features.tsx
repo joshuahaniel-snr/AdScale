@@ -4,13 +4,13 @@ export function Features() {
   const features = [
     {
       icon: BarChart3,
-      title: "Weekly AI Analyst Report",
-      description: "Every Monday at 7 AM, get a comprehensive AI-generated analysis of your campaigns with actionable insights and recommendations."
+      title: "AI-Generated Reports On-Demand",
+      description: "Generate comprehensive AI-powered reports anytime you need them. Get actionable insights and recommendations in 60 seconds."
     },
     {
       icon: Zap,
-      title: "60-Second Report Generation",
-      description: "Beautiful, white-labeled reports generated automatically in under a minute. Export to PDF or share via link."
+      title: "Instant Report Generation",
+      description: "Beautiful, white-labeled reports generated automatically in under a minute. Export to PDF or share via link instantly."
     },
     {
       icon: FileText,
