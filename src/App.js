@@ -17,16 +17,16 @@ function App() {
     }, []);
 
     if (!session) {
-        return ( <
-            > { /* Landing Page Content */ } <
-            h1 style = {
-                { textAlign: 'center', marginTop: 40 } } > Welcome to AdScale < /h1> <
-            p style = {
-                { textAlign: 'center', marginBottom: 32 } } > Sign up
-            for a free plan or 14 - day trial to access your dashboard. < /p> <
-            Auth / >
-            <
-            />
+        return (
+            <>
+                {/* Landing Page Content */}
+                <h1 style={{ textAlign: 'center', marginTop: 40 }}>Welcome to AdScale</h1>
+                <p style={{ textAlign: 'center', marginBottom: 32 }}>
+                    Choose an option below:<br />
+                    <strong>Reserve My Spot</strong> (waitlist), <strong>Sign In</strong> (existing users), or <strong>Get 14 Day Trial</strong> (new users).
+                </p>
+                <Auth />
+            </>
         );
     }
 
